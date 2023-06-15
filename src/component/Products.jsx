@@ -118,7 +118,7 @@ const Right = styled.div`
 const Products = () => {
   const[products, setproducts] = useState("Formals")
   return (
-    <Section>
+    <Section id="Products">
       <Container>
         <Left>
           <List>

@@ -5,6 +5,7 @@ import Contacts from "./component/Contacts"
 import { styled } from "styled-components"
 
 
+
 const Container = styled.div`
   height: 100vh;
 scroll-snap-type: y mandatory;
@@ -20,18 +21,18 @@ background-size: auto;
 `
 
 
-
 function App() {
 
   return (
     <Container>
-      <Hero />
-      <Testimonials />
-      <Products />
-      <Contacts />
-      
+      <Hero/>
+      <Testimonials/>
+      <Products/>
+      <Contacts/>
     </Container>
-  )
+    
+  );
 }
+
 
 export default App

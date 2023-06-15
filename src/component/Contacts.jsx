@@ -45,7 +45,7 @@ const Iframe = styled.iframe`
 
 const Contacts = () => {
   return (
-    <Section>
+    <Section id="Contacts">
       <MapContainer>
         <Iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15562.890808258979!2d78.7212153173828!3d12.796503000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad08e25f290891%3A0x32befe4b9c32a741!2sShoe%20Style!5e0!3m2!1sen!2sin!4v1686677309044!5m2!1sen!2sin"

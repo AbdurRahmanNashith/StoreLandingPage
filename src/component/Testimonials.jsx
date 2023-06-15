@@ -22,7 +22,7 @@ const Iframe = styled.iframe`
 
 const Testimonials = () => {
   return (
-    <Section>
+    <Section id="Testimonials">
       <VideoContainer>
         <Iframe
           src="https://www.youtube.com/embed/DRUO296WCpc"
